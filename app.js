@@ -1,5 +1,5 @@
 let numerosSorteados = [];
-let numeroLimite = 10;
+let numeroLimite = 100;
 let numero_Aleatorio = númeroAleatorio();
 let tentativas = 1;
 function exibirTextoNaTela(tag, texto)
@@ -86,7 +86,7 @@ function limparCampo()
 function exibirMensagemInicial()
 {
     exibirTextoNaTela('h1', 'Jogo do número aleatorio');
-    exibirTextoNaTela('p', 'Escolha números de 0 a 10');
+    exibirTextoNaTela('p', 'Escolha números de 0 a 100');
 }
 
 function reiniciarJogo()
