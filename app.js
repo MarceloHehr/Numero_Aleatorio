@@ -55,6 +55,7 @@ function verificarChute()
 }
 
 
+
 function númeroAleatorio()
 {
     let numeroEscolhido =parseInt(Math.random() *numeroLimite + 1);
