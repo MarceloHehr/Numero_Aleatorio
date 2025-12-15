@@ -1,5 +1,5 @@
 let numerosSorteados = [];
-let numeroLimite = 50;
+let numeroLimite = 100;
 let numero_Aleatorio = númeroAleatorio();
 let tentativas = 1;
 function exibirTextoNaTela(tag, texto)
@@ -13,7 +13,7 @@ function exibirTextoNaTela(tag, texto)
         utterance.rate = 1.2; 
         window.speechSynthesis.speak(utterance); 
     } else {
-        console.log("Web Speech API não suportada neste navegador.");
+        console.log("Web Speech API não suportada para este navegador.");
     }
 
 }
